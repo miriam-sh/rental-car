@@ -1,9 +1,61 @@
-A professional end-to-end project that manages a car rental website using the shared vehicle method.
-The project contains a user interface that allows registered users to borrow a car, view the loans made by them, and return it. When making a return, the system calculates the cost based on the length of the loan, the vehicle model, and the price of fuel, and makes a payment.
-In addition, the site contains an administrator interface that allows you to add, update, and delete car models, vehicles, and different drive types, as well as view all loans made on the site.
-There is also the option for the guest to view the vehicles on the site without the rental option.
-The site is designed in a clean, uniform, and attractive line and provides a maximum user experience.
+# Car Rental Website - Shared Vehicle Project
 
-Development languages:
-Client side: react, server side: c# (built using the N-Tiers architecture) Database: sql.
-The project implements advanced React libraries such as: axios, redux, and redux-thunk, and uses extensive design libraries such as mui
+A **professional end-to-end project** that manages a car rental website using the **shared vehicle method**.
+
+---
+
+## Project Overview
+
+This project features a **user interface** that allows:
+
+- Registered users to **borrow a car**,
+- View their active and past **loans**,
+- **Return** the vehicle.
+
+When a vehicle is returned, the system calculates the **total cost** based on:
+
+- The duration of the loan,
+- The vehicle model,
+- The fuel price,
+
+and processes the **payment** accordingly.
+
+---
+
+## Administrator Interface
+
+The site also includes an **administrator interface** that provides capabilities to:
+
+- **Add, update, and delete** car models,
+- Manage vehicles and different drive types,
+- View **all loans** made on the platform.
+
+---
+
+## Guest Access
+
+Guests visiting the site can:
+
+- **Browse vehicles** available on the site,
+- However, they **cannot rent** cars without registration.
+
+---
+
+## Design and User Experience
+
+The website is designed with a **clean, uniform, and attractive style** to provide a **maximum user experience** across all interfaces.
+
+---
+
+## Technologies Used
+
+- **Client Side:** React  
+- **Server Side:** C# (built using the N-Tiers architecture)  
+- **Database:** SQL  
+
+The project leverages advanced React libraries such as:
+
+- `axios` for API calls,  
+- `redux` and `redux-thunk` for state management and asynchronous actions.
+
+It also uses extensive design libraries like **Material UI (MUI)** for a consistent and modern UI.
